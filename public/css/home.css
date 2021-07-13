@@ -1,5 +1,5 @@
 header{
-    background-color: #EAC926;
+    background-color: var(--amarillo);
     padding-bottom: 15px;
 
 }
@@ -14,7 +14,7 @@ header img{
 }
 .lupa{
     outline-style: solid;
-    outline-color: #666;
+    outline-color: var(--grisOscuro);
     outline-width: thin ;
     background-color: white;
     margin-left: 22px;
@@ -40,7 +40,7 @@ header nav ul li i{
      text-align: center;
     display: inline-block;
     width: 30px;
-    background-color:#1259c3;
+    background-color: var(--celeste);
     color: white;
     padding: 8px;
     border-radius: 4px;
@@ -48,22 +48,58 @@ header nav ul li i{
 
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    
+    width: 90%;
+}
 .titulares{
     font-size: 24px;
+}
+
+.articulos{
+    background-color: var(--grisClaro);
+    padding: 15px;
+}
+
+.producto{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.detalleProducto{
+    border-top: 1px solid var(--grisClaro);
+    padding: 15px;
+}
+
+.detalleProducto i{
+    color: var(--verde);
+    border: solid 1px var(--verdeOscuro);
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .precio{
     font-size: 18px;
 }
 
+.descuento{
+    color: var(--verdeOscuro);
+}
+
+
 footer{
     text-align: center;
     font-size: 16px;
-    color: #666;
+    color: var(--grisOscuro);
 }    
 
+.descripcion{
+    color: var(--grisOscuro);
+}
 
 footer section i{
     font-size: 30px;
-    color: #1259c3;;
+    color: var(--celeste);
 }
