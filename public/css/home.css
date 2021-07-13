@@ -1,0 +1,69 @@
+header{
+    background-color: #EAC926;
+    padding-bottom: 15px;
+
+}
+header img{
+    margin-left: 20px;
+    margin-top: -40px;
+    margin-bottom: -70px;
+}
+.barra-busqueda{
+    margin-left: 20px;
+    font-size-adjust: 100px;
+}
+.lupa{
+    outline-style: solid;
+    outline-color: #666;
+    outline-width: thin ;
+    background-color: white;
+    margin-left: 22px;
+    margin-top: 400px;
+}
+header h3{
+    margin-left: 23px;
+    font-size: 12px;
+}
+header nav ul a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;   
+    margin-left: -40px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li i{
+    margin-left: 5px;
+}
+.burguer-menu{
+     text-align: center;
+    display: inline-block;
+    width: 30px;
+    background-color:#1259c3;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 120px;
+
+}
+
+.titulares{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}    
+
+
+footer section i{
+    font-size: 30px;
+    color: #1259c3;;
+}
