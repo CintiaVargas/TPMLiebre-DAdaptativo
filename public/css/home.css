@@ -37,7 +37,7 @@ header nav ul li i{
     margin-left: 5px;
 }
 .burguer-menu{
-     text-align: center;
+    text-align: center;
     display: inline-block;
     width: 30px;
     background-color: var(--celeste);
@@ -49,11 +49,10 @@ header nav ul li i{
 }
 
 main{
-    display: flex;
-    justify-content: center;
-    
     width: 90%;
+    margin-left: 5%;
 }
+
 .titulares{
     font-size: 24px;
 }
@@ -66,6 +65,10 @@ main{
 .producto{
     background-color: white;
     margin-bottom: 10px;
+}
+.producto img{
+    width: 70%;
+    height: 70%;
 }
 
 .detalleProducto{
@@ -88,6 +91,9 @@ main{
     color: var(--verdeOscuro);
 }
 
+.descripcion{
+    color: var(--grisOscuro);
+}
 
 footer{
     text-align: center;
@@ -95,11 +101,46 @@ footer{
     color: var(--grisOscuro);
 }    
 
-.descripcion{
-    color: var(--grisOscuro);
-}
-
 footer section i{
     font-size: 30px;
     color: var(--celeste);
+}
+
+@media (max-width: 360px) {
+    .menu-header{
+        display: none;
+    }
+    main{
+        margin-left: 10px;
+    }
+    .descripcion{
+        display: none;
+    }    
+}
+@media (min-width: 361px) {
+    .burguer-menu{
+        display: none;
+    }
+    .producto{
+      box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );  
+    }
+    .precio{
+        font-size: 40px;
+    }    
+    main{
+        
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 769px) {
+    .burguer-menu{
+        display: none;
+    }
+    .producto{
+        box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
+    
+    
 }
